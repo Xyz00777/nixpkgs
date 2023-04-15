@@ -552,7 +552,7 @@ in {
             };
 
             markerName = mkOption {
-              type = types.name;
+              type = types.str;
               default = ".stfolder";
               description = mdDoc ''
                 Name of a directory or file in the folder root to be used as [How do I serve a folder from a read only filesystem](https://docs.syncthing.net/users/faq.html#marker-faq)?.
